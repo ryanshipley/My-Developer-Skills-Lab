@@ -1,6 +1,6 @@
 body{
     display: flex;
-    margin: 5px;
+    margin: 50px auto;
     flex-direction: column;
     min-height: 100vh;
     justify-content: center;
@@ -8,8 +8,47 @@ body{
 }
 
 h1{
-    background-color: rgb(100, 200, 100);
+    background-color: green;
     color: white;
     text-align: center;
-    font-size: ;
+    font-family: Helvetica;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+ul{
+    list-style: none;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    display: grid;
+}
+
+li{
+    margin: 20px 0px 20px 0px;
+    color: orange;
+}
+
+span{
+    color: white;
+    margin-right: 10px;
+    text-align: center;
+    background-color: red;
+    padding: 7px;
+
+}
+
+#input{
+    width: 50%;
+    border: 3px solid green;
+    height: 32px;
+    text-transform: uppercase;
+}
+
+#add-skill {
+    width: 40%;
+    margin: 0 0 0 5px;
+    background-color: white;
+    color: green;
+    border: 3px solid green;
+    height: 40px;
 }
